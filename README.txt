@@ -1,9 +1,9 @@
-=== Quick and Easy FAQs Mod ===
-Contributors: inspirythemes, saqibsarwar, gioxx
-Tags: FAQs, FAQ, FAQs list, accordion FAQs, toggle FAQs, filtered FAQs, grouped FAQs, FAQs Block, Gutenberg FAQs, FAQs Order, FAQs Sorting, FAQs Limit
+=== Quick and Easy FAQs ===
+Contributors: inspirythemes, saqibsarwar, usmanaliqureshi
+Tags: FAQs, FAQ, FAQs list, accordion FAQs, toggle FAQs, filtered FAQs, grouped FAQs, FAQs Block, Gutenberg FAQs, FAQs Order, FAQs Sorting
 Requires at least: 5.0
-Tested up to: 5.9.3
-Stable tag: 1.3.5.1
+Tested up to: 6.0.1
+Stable tag: 1.3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,27 +29,40 @@ This plugin provides a quick and easy way add FAQs using custom post type and la
 ### Documentation
 
 * `[faqs]` Display all FAQs in simple list style.
-* `[faqs order="ASC" orderby="title"]` Display all FAQs in simple list style and order by ascending title.
-* `[faqs order="DESC" orderby="title"]` Display all FAQs in simple list style and order by descending title.
-* `[faqs style="grouped"]` Display all FAQs in simple list style that are separated by groups.
-* `[faqs filter="true"]` Display FAQs in simple list style that are filterable by all available groups.
-* `[faqs filter="group-slug,another-group-slug"]` Display FAQs in simple list style that are filterable by only given group slugs.
-* `[faqs style="toggle"]` Display all FAQs in toggle style.
-* `[faqs style="toggle" filter="true"]` Display all FAQs in toggle style and filterable by all available groups.
-* `[faqs style="toggle-grouped"]` Display all FAQs in toggle style and grouped by all available groups.
-* `[faqs style="toggle" order="ASC" orderby="title"]` Display all FAQs in toggle style and order by ascending title.
-* `[faqs style="toggle" order="DESC" orderby="title"]` Display all FAQs in toggle style and order by descending title.
-* `[faqs style="accordion"]` Display all FAQs in accordion style.
-* `[faqs style="accordion" filter="true"]` Display all FAQs in accordion style and filterable by all available groups.
-* `[faqs style="accordion-grouped"]` Display all FAQs in accordion style and grouped by all available groups.
-* `[faqs style="accordion" order="ASC" orderby="title"]` Display all FAQs in accordion style and order by ascending title.
-* `[faqs style="accordion" order="DESC" orderby="title"]` Display all FAQs in accordion style and order by descending title.
 
-You can add limit variable to limit how many FAQs you want to show in your page/post. For example: `[faqs order="ASC" orderby="title" limit="5"]` Display 5 FAQs in simple list style and order by ascending title.
+* `[faqs order="ASC" orderby="title"]` Display all FAQs in simple list style and order by ascending title.
+
+* `[faqs order="DESC" orderby="title"]` Display all FAQs in simple list style and order by descending title.
+
+* `[faqs style="grouped"]` Display all FAQs in simple list style that are separated by groups.
+
+* `[faqs filter="true"]` Display FAQs in simple list style that are filterable by all available groups.
+
+* `[faqs filter="group-slug,another-group-slug"]` Display FAQs in simple list style that are filterable by only given group slugs.
+
+* `[faqs style="toggle"]` Display all FAQs in toggle style.
+
+* `[faqs style="toggle" filter="true"]` Display all FAQs in toggle style and filterable by all available groups.
+
+* `[faqs style="toggle-grouped"]` Display all FAQs in toggle style and grouped by all available groups.
+
+* `[faqs style="toggle" order="ASC" orderby="title"]` Display all FAQs in toggle style and order by ascending title.
+
+* `[faqs style="toggle" order="DESC" orderby="title"]` Display all FAQs in toggle style and order by descending title.
+
+* `[faqs style="accordion"]` Display all FAQs in accordion style.
+
+* `[faqs style="accordion" filter="true"]` Display all FAQs in accordion style and filterable by all available groups.
+
+* `[faqs style="accordion-grouped"]` Display all FAQs in accordion style and grouped by all available groups.
+
+* `[faqs style="accordion" order="ASC" orderby="title"]` Display all FAQs in accordion style and order by ascending title.
+
+* `[faqs style="accordion" order="DESC" orderby="title"]` Display all FAQs in accordion style and order by descending title.
 
 ### Links
 
-- [GitHub Repository](https://github.com/gioxx/quick-and-easy-faqs-mod)
+- [GitHub Repository](https://github.com/inspirythemes/quick-and-easy-faqs)
 
 == Installation ==
 
@@ -72,8 +85,10 @@ You can add limit variable to limit how many FAQs you want to show in your page/
 
 == Changelog ==
 
-= 1.3.5.1 =
-* Tested for WordPress 5.9.3. Introducing FAQs limit (how many FAQs you can display in a page/post).
+= 1.3.6 =
+* Tested for WordPress 6.0.1
+* Removed a deprecated filter
+* Added author support for FAQs
 
 = 1.3.5 =
 * Tested for WordPress 5.9.2
