@@ -58,6 +58,7 @@ class FAQs_Query extends Utilities {
 	 * @param bool | array $filters The filters of this plugin.
 	 * @param string       $orderby FAQs posts order by.
 	 * @param string       $order FAQs posts order.
+	 * @param int					 $limit FAQs to show (quantity).
 	 */
 	public function __construct( $display = '', $filters = false || array(), $orderby = 'date', $order = 'DESC', $limit = -1 ) {
 

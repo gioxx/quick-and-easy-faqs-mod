@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:       Quick and Easy FAQs
- * Plugin URI:        https://github.com/inspirythemes/quick-and-easy-faqs
+ * Plugin Name:       Quick and Easy FAQs Mod
+ * Plugin URI:        https://github.com/gioxx/quick-and-easy-faqs-mod
  * Description:       A quick and easy way to add FAQs to your site.
  * Version:           1.3.6.1
  * Author:            <a href="https://inspirythemes.com/">Inspiry Themes</a>, <a href="https://gioxx.org/">Gioxx</a>
