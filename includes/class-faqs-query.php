@@ -58,7 +58,7 @@ class FAQs_Query extends Utilities {
 	 * @param bool | array $filters The filters of this plugin.
 	 * @param string       $orderby FAQs posts order by.
 	 * @param string       $order FAQs posts order.
-	 * @param int					 $limit FAQs to show (quantity).
+	 * @param int		   $limit FAQs to show (quantity).
 	 */
 	public function __construct( $display = '', $filters = false || array(), $orderby = 'date', $order = 'DESC', $limit = -1 ) {
 
@@ -191,11 +191,11 @@ class FAQs_Query extends Utilities {
 			} else {
 				$terms_slugs = $this->get_terms_slugs( $faq_ids );
 				?>
-
+				
 					<li class="<?php echo esc_attr( implode( ' ', $terms_slugs ) ); ?>">
 						<a href="#qaef-<?php echo esc_attr( $faq_ids ); ?>"><?php echo esc_html( get_the_title( $faq_ids ) ); ?></a>
 					</li>
-
+				
 				<?php
 			}
 		}
@@ -231,7 +231,7 @@ class FAQs_Query extends Utilities {
 		if ( $this->filters ) {
 			?>
 			<ul class="qe-faqs-filters-container">
-				<li><a class="qe-faqs-filter all-faqs" href="#" data-filter="*"><?php esc_html_e( 'All', 'quick-and-easy-faqs' ); ?></a></li>
+				<li class="active"><a class="qe-faqs-filter all-faqs" href="#" data-filter="*"><?php esc_html_e( 'All', 'quick-and-easy-faqs' ); ?></a></li>
 				<?php
 				foreach ( $this->filters as $term ) {
 					$term_object = get_term_by( 'slug', $term, 'faq-group' );
